@@ -1,16 +1,19 @@
-import type { Meta, StoryObj } from '@storybook/react'
-import { Box, BoxProps } from '@radiance/react'
+import type { Meta, StoryObj } from "@storybook/react";
+import { Box, BoxProps, Text } from "@radiance/react";
 
 export default {
-  title: 'Surfaces/Box',
+  title: "Surfaces/Box",
   component: Box,
   args: {
-    children: (
-      <>
-        <span>Testando o elemento Box</span>
-      </>
-    ),
+    children: <Text>Testando o elemento Box</Text>,
   },
-} as Meta<BoxProps>
+  argTypes: {
+    children: {
+      control: {
+        type: null,
+      },
+    },
+  },
+} as Meta<BoxProps>;
 
-export const Primary: StoryObj<BoxProps> = {}
+export const Primary: StoryObj<BoxProps> = {};
