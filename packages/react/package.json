@@ -1,6 +1,6 @@
 {
-  "name": "@radiance/react",
-  "version": "1.0.0",
+  "name": "@radiance-ui/react",
+  "version": "2.0.0",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -14,9 +14,9 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@radiance/eslint-config": "*",
-    "@radiance/tokens": "*",
-    "@radiance/ts-config": "*",
+    "@radiance-ui/eslint-config": "*",
+    "@radiance-ui/tokens": "*",
+    "@radiance-ui/ts-config": "*",
     "@types/react": "^18.0.28",
     "@types/react-dom": "^18.0.11",
     "react": "^18.2.0",

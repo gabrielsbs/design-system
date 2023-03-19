@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Box, Text, Checkbox, CheckboxProps } from "@radiance/react";
+import { Box, Text, Checkbox, CheckboxProps } from "@radiance-ui/react";
 
 export default {
   title: "Form/Checkbox",

@@ -1,5 +1,6 @@
 {
-  "name": "@radiance/eslint-config",
+  "name": "@radiance-ui/eslint-config",
+  "version": "2.0.0",
   "private": true,
   "license": "MIT",
   "main": "index.js",

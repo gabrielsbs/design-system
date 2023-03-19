@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Box, Text, TextInput, TextInputProps } from "@radiance/react";
+import { Box, Text, TextInput, TextInputProps } from "@radiance-ui/react";
 
 export default {
   title: "Form/Text Input",

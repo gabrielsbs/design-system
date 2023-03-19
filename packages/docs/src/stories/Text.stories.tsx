@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import { Text, TextProps } from "@radiance/react";
+import { Text, TextProps } from "@radiance-ui/react";
 
 export default {
   title: "Typography/Text",

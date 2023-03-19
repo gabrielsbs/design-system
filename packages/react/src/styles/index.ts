@@ -6,8 +6,8 @@ import {
   fonts,
   space,
   radii,
-} from '@radiance/tokens/dist'
-import { createStitches, defaultThemeMap } from '@stitches/react'
+} from "@radiance-ui/tokens/dist";
+import { createStitches, defaultThemeMap } from "@stitches/react";
 
 export const {
   styled,
@@ -21,8 +21,8 @@ export const {
 } = createStitches({
   themeMap: {
     ...defaultThemeMap,
-    height: 'space',
-    width: 'space',
+    height: "space",
+    width: "space",
   },
   theme: {
     colors,
@@ -33,4 +33,4 @@ export const {
     space,
     radii,
   },
-})
+});

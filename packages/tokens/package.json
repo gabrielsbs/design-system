@@ -1,6 +1,6 @@
 {
-  "name": "@radiance/tokens",
-  "version": "1.0.0",
+  "name": "@radiance-ui/tokens",
+  "version": "2.0.0",
   "description": "",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -16,7 +16,7 @@
   "devDependencies": {
     "tsup": "^6.6.3",
     "typescript": "^4.9.5",
-    "@radiance/ts-config": "*",
-    "@radiance/eslint-config": "*"
+    "@radiance-ui/ts-config": "*",
+    "@radiance-ui/eslint-config": "*"
   }
 }

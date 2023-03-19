@@ -1,4 +1,4 @@
-import { colors } from '@radiance/tokens'
+import { colors } from '@radiance-ui/tokens'
 import { getContrast } from 'polished'
 
 export function ColorsGrid() {

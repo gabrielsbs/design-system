@@ -1,4 +1,4 @@
 {
-  "extends": "@radiance/ts-config/react.json",
+  "extends": "@radiance-ui/ts-config/react.json",
   "include": ["src"]
 }
